@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Carah ♡ — From Jai</title>
+  <meta name="description" content="A little universe made with love, just for Carah." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- FLOATING DECORATIONS -->
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+  <div class="bg-particles" id="bgParticles" aria-hidden="true"></div>
+
+  <!-- PAGE 1: WELCOME / ENVELOPE -->
+  <section id="welcome" class="section welcome-section active">
+    <div class="welcome-content">
+      <p class="welcome-tagline">For someone who makes my world a little more beautiful...</p>
+      <h1 class="welcome-title">Made with love,<br>just for you, Carah ♡</h1>
+      
+      <div class="envelope-wrapper" id="envelopeWrapper">
+        <div class="envelope" id="envelope">
+          <div class="envelope-flap"></div>
+          <div class="envelope-body">
+            <div class="envelope-heart">♡</div>
+          </div>
+        </div>
+        <button class="btn btn-primary open-btn" id="openBtn">
+          Open your little surprise ♡
+        </button>
+      </div>
+      
+      <p class="signature">From Jai, with love.</p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT (hidden until envelope opens) -->
+  <main id="mainContent" class="main-content hidden">
+    
+    <!-- NAV -->
+    <nav class="side-nav" id="sideNav">
+      <button class="nav-dot active" data-target="letter" title="A Letter for You"></button>
+      <button class="nav-dot" data-target="little-things" title="Little Things"></button>
+      <button class="nav-dot" data-target="dreams" title="Your Dreams"></button>
+      <button class="nav-dot" data-target="apology" title="I'm Sorry"></button>
+      <button class="nav-dot" data-target="promises" title="What I Want to Give"></button>
+      <button class="nav-dot" data-target="future" title="Our Little Future"></button>
+      <button class="nav-dot" data-target="proposal" title="The Question"></button>
+    </nav>
+
+    <!-- PAGE 2: LETTER -->
+    <section id="letter" class="section letter-section">
+      <div class="container">
+        <div class="letter-card glass">
+          <h2 class="section-title handwritten">Dear Carah, my favourite girl...</h2>
+          <div class="letter-body">
+            <p>I’ve been thinking about how to say this for a long time. Not in a grand, dramatic way — just in the quiet, honest way that feels true.</p>
+            
+            <p>I want to know every side of you. Not just the soft, romantic version that appears in late-night messages, but the real Carah. The one who gets shy on calls sometimes. The one who shares random stories about her day. The one who has her own dreams, her own pace, her own beautiful, complicated, wonderful self.</p>
+            
+            <p>I remember the little things you told me:</p>
+            <ul class="memory-list">
+              <li>That your favourite colour is pink — soft, warm, and full of feeling.</li>
+              <li>How flowers mean something real to you, not just decoration.</li>
+              <li>Your love for chao fan, sinigang, and adobo (and how food can feel like home).</li>
+              <li>The song “Pwede Bang” by Hev Abi — and how it somehow lives in the space between us.</li>
+              <li>Your dream of a pink-decorated bedroom, a soft space that’s completely yours.</li>
+              <li>Your stories about school, the quiet ambitions, the university plans, the future you’re carefully building.</li>
+              <li>Catanduanes — the place that feels like a dream destination in your heart.</li>
+              <li>And Shon Shon, your cat, who somehow became part of the picture too.</li>
+            </ul>
+            
+            <p class="highlight">I don’t want to remember only the romantic things. I want to remember the ordinary things, too.</p>
+            
+            <p>I want to hear your random stories. I want to understand your feelings even when they’re quiet. I want to celebrate your achievements — the awards, the exams, the hard days you push through. And I want to support your dreams without ever asking you to make them smaller for me.</p>
+            
+            <p>You don’t have to perform for me. You don’t have to be “on” all the time. You just have to be you. That’s already more than enough.</p>
+            
+            <p class="closing">With all the gentleness I have,<br><span class="handwritten">Jai ♡</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: LITTLE THINGS -->
+    <section id="little-things" class="section scrapbook-section">
+      <div class="container">
+        <h2 class="section-title">It’s the little things about you ♡</h2>
+        <p class="section-subtitle">A small scrapbook of the pieces of you I hold close</p>
+        
+        <div class="scrapbook-grid">
+          <article class="memory-card glass">
+            <div class="card-icon">🌸</div>
+            <h3>Your favourite pink</h3>
+            <p>Soft, warm, a little dreamy — just like the way you make ordinary days feel special.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🌷</div>
+            <h3>Flowers</h3>
+            <p>Not just pretty things. To you, they mean care, thought, and a quiet kind of love. I remember that.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🎵</div>
+            <h3>“Pwede Bang”</h3>
+            <p>Hev Abi’s song that somehow found its way into our story. A question that still lives softly between us.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🍜</div>
+            <h3>Chao fan</h3>
+            <p>One of your comforts. Simple, warm, and somehow always connected to the idea of home.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🍲</div>
+            <h3>Sinigang & Adobo</h3>
+            <p>The flavours that feel like the Philippines, like family, like something worth coming home to.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🏝️</div>
+            <h3>Catanduanes</h3>
+            <p>Your dream destination. Rolling hills, ocean, quiet beauty. One day, I hope you get to stand there.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🛏️</div>
+            <h3>Pink bedroom</h3>
+            <p>A soft space that’s completely yours — pink, peaceful, and full of the things that make you feel safe.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">📺</div>
+            <h3>K-dramas & Horror</h3>
+            <p>The stories you love — soft romance and thrilling nights. I want to watch them with you someday.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🗺️</div>
+            <h3>Museums, hiking, Ocean Park</h3>
+            <p>Places that make you curious and alive. I want to explore the world the way you do.</p>
+          </article>
+          
+          <article class="memory-card glass">
+            <div class="card-icon">🐱</div>
+            <h3>Shon Shon</h3>
+            <p>Your cat. The little presence that already feels like part of the story you share with me.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: DREAMS -->
+    <section id="dreams" class="section dreams-section">
+      <div class="container">
+        <h2 class="section-title">Your dreams deserve to come true, baby.</h2>
+        <p class="section-subtitle">I will never ask you to shrink them for me.</p>
+        
+        <div class="dreams-quote glass">
+          <p>“I don’t want to be the reason you give up on your dreams. I want to be one of the people cheering the loudest when you achieve them.”</p>
+        </div>
+        
+        <div class="dreams-timeline">
+          <div class="dream-item">
+            <div class="dream-dot"></div>
+            <div class="dream-content glass">
+              <h3>Academic award</h3>
+              <p>I’ll be proud of every late night and every hard-won mark. Your effort matters.</p>
+            </div>
+          </div>
+          <div class="dream-item">
+            <div class="dream-dot"></div>
+            <div class="dream-content glass">
+              <h3>University entrance exams</h3>
+              <p>Whatever the result, I’ll still see the courage it took to try. I’m with you.</p>
+            </div>
+          </div>
+          <div class="dream-item">
+            <div class="dream-dot"></div>
+            <div class="dream-content glass">
+              <h3>Finding the right university</h3>
+              <p>A place that fits you — not just any school, but the one that feels like the next right step.</p>
+            </div>
+          </div>
+          <div class="dream-item">
+            <div class="dream-dot"></div>
+            <div class="dream-content glass">
+              <h3>Graduation</h3>
+              <p>I want to be there (even if only in spirit at first) when you walk across that stage.</p>
+            </div>
+          </div>
+          <div class="dream-item">
+            <div class="dream-dot"></div>
+            <div class="dream-content glass">
+              <h3>Professional experience</h3>
+              <p>Building skills, learning, becoming capable. I respect the woman you’re becoming.</p>
+            </div>
+          </div>
+          <div class="dream-item">
+            <div class="dream-dot"></div>
+            <div class="dream-content glass">
+              <h3>Working abroad</h3>
+              <p>If that path calls you, I won’t hold you back. Distance doesn’t scare me if it’s for your growth.</p>
+            </div>
+          </div>
+          <div class="dream-item">
+            <div class="dream-dot"></div>
+            <div class="dream-content glass">
+              <h3>Financial independence</h3>
+              <p>You building a life where you can stand on your own — and still choose to share it. That’s beautiful.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 5: APOLOGY -->
+    <section id="apology" class="section apology-section">
+      <div class="container">
+        <div class="apology-card glass">
+          <h2 class="section-title">There’s something I need to tell you...</h2>
+          
+          <div class="apology-body">
+            <p>Carah, I need to say this clearly and without excuses.</p>
+            
+            <p>I’m sorry for the times I overthought things and turned small moments into big worries. I’m sorry for questioning your feelings when you didn’t need to prove anything. I’m sorry for making misunderstandings heavier than they had to be.</p>
+            
+            <p>I’m sorry for making you feel guilty when you couldn’t send pictures, or when you needed space. I’m sorry for expecting immediate attention when you already have studies, family, friends, and a life that doesn’t revolve around me.</p>
+            
+            <p>I’m sorry for the repeated apologies that may have started to feel exhausting. I’m sorry for the moments I was possessive, for not always understanding your boundaries, and for making you feel responsible for my insecurities.</p>
+            
+            <p class="highlight">I am sorry for the times I made you feel like you had to prove your love to me.</p>
+            
+            <p>I understand that you have your own life, your own studies, your own friendships, your own family, and your own responsibilities. Your boundaries are not rejection. Your personal time is not a lack of love. You should never feel pressured to do anything just to make me happy.</p>
+            
+            <p>I cannot change the past. But I can take responsibility for my actions and improve through consistency — not through more words, but through better choices, day by day.</p>
+            
+            <p>This apology is not a request for you to fix me or to say yes out of guilt. It’s simply the truth I needed to give you.</p>
+            
+            <p class="closing">I’m still learning how to love you better.<br><span class="handwritten">— Jai</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 6: WHAT I WANT TO GIVE -->
+    <section id="promises" class="section promises-section">
+      <div class="container">
+        <h2 class="section-title">I don’t promise perfection. I promise effort.</h2>
+        <p class="section-subtitle">These are the things I want to keep giving you</p>
+        
+        <div class="promises-grid">
+          <article class="promise-card glass">
+            <h3>Patience</h3>
+            <p>I want to understand you instead of rushing you. Your pace is allowed here.</p>
+          </article>
+          <article class="promise-card glass">
+            <h3>Respect</h3>
+            <p>Your boundaries, opinions, feelings, and choices matter. Always.</p>
+          </article>
+          <article class="promise-card glass">
+            <h3>Consistency</h3>
+            <p>I want my actions to match my words — not just on the good days.</p>
+          </article>
+          <article class="promise-card glass">
+            <h3>Support</h3>
+            <p>I want to celebrate your ambitions and achievements, loudly and quietly.</p>
+          </article>
+          <article class="promise-card glass">
+            <h3>Communication</h3>
+            <p>I want us to talk honestly instead of assuming the worst in silence.</p>
+          </article>
+          <article class="promise-card glass">
+            <h3>Freedom</h3>
+            <p>I want you to enjoy your friendships, hobbies, and personal life without feeling guilty.</p>
+          </article>
+        </div>
+        
+        <div class="promises-quote glass">
+          <p>“I don’t want to own your world. I want to be someone you freely choose to share it with.”</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 7: OUR LITTLE FUTURE -->
+    <section id="future" class="section future-section">
+      <div class="container">
+        <h2 class="section-title">Some little things I’d love to experience with you...</h2>
+        <p class="section-subtitle">These are hopes, not obligations. Only if you want them too.</p>
+        
+        <div class="future-grid">
+          <div class="future-item">🌸 Exchanging pink flowers</div>
+          <div class="future-item">☕ Having a cute, simple date</div>
+          <div class="future-item">📺 Watching a K-drama together</div>
+          <div class="future-item">🎬 Watching a horror movie (and holding hands)</div>
+          <div class="future-item">🏛️ Going to museums</div>
+          <div class="future-item">🥾 Exploring beautiful places</div>
+          <div class="future-item">🌊 Visiting the ocean</div>
+          <div class="future-item">📸 Taking matching pictures</div>
+          <div class="future-item">💬 Having long, honest conversations</div>
+          <div class="future-item">📚 Supporting each other’s studies</div>
+          <div class="future-item">🎓 Celebrating academic achievements</div>
+          <div class="future-item">🌙 Enjoying simple everyday moments</div>
+        </div>
+        
+        <div class="catanduanes-dream glass">
+          <h3>And maybe one day...</h3>
+          <p>Standing together somewhere in Catanduanes — green hills, ocean air, the quiet beauty you’ve dreamed of. Not as a promise I demand, but as a hope I hold gently.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 8: THE PROPOSAL -->
+    <section id="proposal" class="section proposal-section">
+      <div class="container">
+        <div class="proposal-content" id="proposalContent">
+          <p class="proposal-lead">Carah, there’s one question I’ve been wanting to ask you...</p>
+          
+          <p class="proposal-middle">I don’t want to rush you. I want to court you properly, love you genuinely, respect you completely, and build something beautiful with you — only if you want that too.</p>
+          
+          <h2 class="proposal-question">CARAH, WILL YOU BE MY GIRLFRIEND? ♡</h2>
+          
+          <div class="proposal-buttons" id="proposalButtons">
+            <button class="btn btn-yes" id="yesBtn">YES, MY JAI ♡</button>
+            <button class="btn btn-maybe" id="maybeBtn">I NEED MORE TIME</button>
+          </div>
+        </div>
+        
+        <!-- YES CELEBRATION -->
+        <div class="yes-celebration hidden" id="yesCelebration">
+          <div class="confetti" id="confetti"></div>
+          <h2 class="celebration-title">SHE SAID YES! ♡</h2>
+          <p class="celebration-text">Today isn’t the beginning of a perfect love story.<br>It’s the beginning of something we get to build together.</p>
+          <p class="celebration-text">And I’ll keep choosing kindness, patience, respect and consistency — one day at a time.</p>
+          <p class="celebration-close">Forever grateful that it’s you, Carah.<br><span class="handwritten">With love, Jai ♡</span></p>
+          
+          <div class="whatsapp-box">
+            <p>Whenever you’re ready...</p>
+            <a href="https://wa.me/919405839990" class="btn btn-whatsapp" id="whatsappBtn" target="_blank" rel="noopener">
+              Talk to me on WhatsApp ♡
+            </a>
+          </div>
+        </div>
+        
+        <!-- MORE TIME RESPONSE -->
+        <div class="maybe-response hidden" id="maybeResponse">
+          <h2 class="section-title">Take all the time you need.</h2>
+          <p>There is no pressure. There is no deadline. There is no guilt.</p>
+          <p>I will respect your decision, whatever it is, and I will still care about you the same way.</p>
+          <p>You never have to say yes just to make me feel better. Your honest answer is the only one that matters.</p>
+          <p class="closing">I’m still here, still choosing patience.<br><span class="handwritten">— Jai ♡</span></p>
+          <button class="btn btn-secondary" id="backToProposal">Go back</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL LETTER -->
+    <section id="final" class="section final-section">
+      <div class="container">
+        <div class="final-letter glass">
+          <h2 class="section-title handwritten">One last thing...</h2>
+          <div class="letter-body">
+            <p>Thank you for being you, Carah.</p>
+            <p>Thank you for your stories, your laughter, your little random messages, your dreams, and all the little pieces of yourself you’ve shared with me.</p>
+            <p>I hope you never feel that you need to become someone else to be loved.</p>
+            <p>I hope you always chase your dreams, enjoy your life, laugh loudly, experience beautiful places, and become everything you want to be.</p>
+            <p>And I hope I can keep learning how to love you in the way you deserve.</p>
+            <p class="highlight">I love you, my favourite girl.</p>
+            <p class="closing">— Jai ♡</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>Not a perfect love story. A beautiful one that we build together.</p>
+      <p class="footer-sig">Created with love by Jai, for Carah. ♡</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
